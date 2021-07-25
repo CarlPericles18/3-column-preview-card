@@ -1,0 +1,148 @@
+:root{
+    --lightorange-color:hsl(31, 77%, 52%);
+    --Darkcyan-color:hsl(184, 100%, 22%);
+    --Verydarkcyan-color: hsl(179, 100%, 13%);
+}
+
+.container{
+    margin: 90px 20px 0 20px ;
+    
+}
+
+.box1{
+    border-radius: 10px 10px 0 0;
+    background-color: var(--lightorange-color);
+    padding: 0 40px 0 0;
+}
+
+.box2{
+    
+    background-color: var(--Darkcyan-color);
+    padding: 0 40px 0 0;
+}
+.box3{
+    border-radius: 0 0 10px 10px;
+    background-color: var(--Verydarkcyan-color);
+    padding: 0 40px 0 0;
+}
+
+.image{
+    padding: 40px 0 0 40px;
+    font-size: 100px;
+}
+
+.header{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    color: white;
+    padding: 0 0 0 40px;
+}
+.word{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 0 0 0 40px;
+    line-height: 1.6em;
+}
+
+.button1{
+   
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif; 
+    text-align: center;
+    color: var(--lightorange-color) ;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 150px;
+    height:50px;
+    padding: 15px;
+    margin: 0 0 40px 40px;
+    transition:  ease-in;
+    
+    
+}
+.button2{
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif; 
+    text-align: center;
+    color: var(--Darkcyan-color) ;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 150px;
+    height:50px;
+    padding: 15px;
+    margin: 0 0 40px 40px;
+    transition:   ease-in;
+}
+.button3 {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif; 
+    text-align: center;
+    color: var(--Verydarkcyan-color) ;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 150px;
+    height:50px;
+    padding: 15px;
+    margin: 0 0 40px 40px;
+    transition:   ease-in;
+}
+
+.button1:hover{
+    background: transparent;
+    color:white;
+    cursor: pointer;
+}
+.button2:hover{
+    background: transparent;
+    color:white;
+    cursor: pointer;
+}
+.button3:hover{
+    background: transparent;
+    color:white;
+    cursor: pointer;
+}
+
+.attribution{
+    font-size: 15px;
+    padding: 40px;
+    text-align: center;
+}
+
+@media (min-width:980px) {
+   .container{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin:100px auto 100px auto;
+     
+   } 
+
+   .header{
+       font-size: 40px;
+   }
+   .word{
+       font-size: 15px;
+   }
+
+   .box1{
+       
+        border-radius: 10px 0 0 10px;
+        padding: 0px 80px 10px 0;
+   }
+   .box2{
+        padding: 0px 80px 10px 0;
+   }
+   
+    .box3{
+        border-radius: 0 10px 10px 0;
+        padding: 0px 80px 10px 0;
+    }
+
+    .btn{
+        padding: 40px 0 0 0;
+        
+    }
+}
